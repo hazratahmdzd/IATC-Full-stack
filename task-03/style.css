@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle img {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    width: 2000px;
+    height: 680px;
+    background-color: rgb(203, 221, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.middle {
+    width: 230px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.middle img {
+    margin: 10px 10px;
+}
+
+.bottom {
+    font-size: small;
+    color: rgb(166, 166, 166);
+}
+
+div[name="first"] {
+    margin: 9px 0 0 0;
+
+}
+
+
