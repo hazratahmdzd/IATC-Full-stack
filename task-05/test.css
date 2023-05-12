@@ -1,0 +1,215 @@
+.test {
+    height: 1500px;
+    background-color: var(--white-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pctr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.php {
+    background-color: var(--black);
+    width: 1171px;
+    height: 452px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 81px;
+}
+
+.subscribe {
+    margin-top: 60px;
+}
+
+.test > h2 {
+    width: 489px;
+height: 61px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 128%;
+/* or 82px */
+
+text-align: center;
+letter-spacing: 0.05em
+}
+
+.test > p {
+    width: 726px;
+    height: 61px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: var(--grey-4);
+    margin-top: 35px;
+}
+
+.pctr > .tp:nth-child(1),
+.pctr > .tp:nth-child(7) {
+    width: 24px;
+    height: 40px;
+}
+
+.pctr > .tp:nth-child(1) {
+    margin-right: 67px;
+}
+
+.pctr > .tp:nth-child(7) {
+    margin-left: 67px;
+}
+
+.pctr > .tp:nth-child(2),
+.pctr > .tp:nth-child(3),
+.pctr > .tp:nth-child(5),
+.pctr > .tp:nth-child(6) {
+    width: 69px;
+    height: 69px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pctr > .tp:nth-child(4) {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.php > h3 {
+    width: 377px;
+    height: 38px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--white-2);
+    margin-top: 42px;
+}
+
+.php > #first {
+    width: 281px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: var(--grey-5);
+    margin-top: 12px;
+
+}
+
+.php > #second {
+    width: 1101px;
+    height: 147px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 1px;
+color: var(--white-2);
+margin-top: 32px;
+}
+
+.php > img {
+    margin-top: -35px;
+}
+
+.test > .logo > #third {
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+margin-top: 88px;
+color: var(--grey-6);
+}
+
+.test > .logo > img {
+    margin: 0 23px;
+}
+
+.test > .subscribe > #fourth {
+    width: 1153px;
+height: 58px;
+
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+text-align: center;
+letter-spacing: 1.5px;
+color: var(--black);
+}
+
+.subscribe > .email {
+    background-color: var(--white);
+    width: 1100px;
+    height: 124px;
+    border-radius: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0px;
+    gap: 136px;
+    margin-top: 52px;
+}
+
+.subscribe > .email > div {
+    background-color: var(--grey-6);
+    height: 40px;
+    width: 3px;
+}
+
+.subscribe > .email > button {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16.8235px;
+gap: 8.41px;
+
+width: 300px;
+height: 68px;
+
+background: var(--black);
+border-radius: 31.544px;
+font-size: 24px;
+color: var(--main);
+}
+
+.subscribe > .email > input {
+    width: 369px;
+    height: 34px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+    border-style: none;
+}
+

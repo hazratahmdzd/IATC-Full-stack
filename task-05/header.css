@@ -1,0 +1,43 @@
+header {
+    padding: 38px;
+}
+
+header > .logo > a {
+    color: var(--main);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: 0.035em;
+    margin-left: 47.5px;
+
+
+}
+
+header > nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    padding: 8px 64px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header > .auth-action > a {
+    color: #72FDF5;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 7px 20px;
+}

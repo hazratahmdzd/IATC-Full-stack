@@ -1,0 +1,139 @@
+.fmain {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+    position: relative;
+
+ }
+
+ .fmain > .djinni {
+    position: absolute;
+    top: 30px;
+ }
+
+ .information {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+ .fmain > .djinni > a {
+    text-decoration: none;
+    color: #72fdf5;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: 0.035em;
+
+}
+
+.fmain h3 {
+    width: 170px;
+height: 29px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21;
+line-height: 29px;
+/* or 29px */
+color: rgba(255, 255, 255, 0.89);
+margin-top: 40px;
+}
+
+.fmain > .information a {
+    width: 100px;
+height: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16.8235px;
+line-height: 150%;
+/* or 25px */
+color: rgba(255, 255, 255, 0.67);
+text-decoration: none;
+margin-top: 20px;
+
+}
+
+.fmain > .emp {
+    left: 400px;
+}
+.fmain > .find {
+    left: 700px;
+}
+.fmain > .adr {
+    left: 1000px;
+}
+
+.fmain > .adr > #link {
+    color: var(--main);
+}
+
+.fmain > .adr .contact {
+    position: relative;
+    margin-top: 40px;
+}
+
+.fmain > .adr  button{
+    background-color: var(--black);
+    border-radius: 25px;
+    border-color: var(--main);
+    color: var(--main);
+    width: 127px;
+    height: 40px;
+    padding-left: 25px;
+    position: absolute;
+}
+
+.fmain > .adr  img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+footer > .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    flex-direction: row;
+}
+
+footer > .bottom > p {
+height: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* or 22px */
+color: #757575;
+margin-bottom: 4px;
+    
+}
+
+footer > .bottom > #first {
+    width: 18px;
+    height: 20px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+footer > .bottom > #second {
+    width: 80px;
+    height: 15px;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+footer > .bottom > div {
+    height: 15px;
+    width: 1px;
+    background-color: #757575;
+    margin-left: 15px;
+}
