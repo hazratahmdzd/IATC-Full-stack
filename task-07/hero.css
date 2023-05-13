@@ -1,0 +1,101 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero > h1 {
+    width: 730px;
+    height: 58px;
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.75px;
+    color: var(--black);
+    margin-top: -50px;
+}
+
+.hero > #one {
+    width: 730px;
+    height: 60px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: var(--grey);
+    margin-top: -25px;
+}
+
+.hero > h2 {
+    width: 730px;
+    height: 45px;
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.586957px;
+    color: var(--black);
+    margin-top: 180px;
+}
+
+.hero > #two {
+    width: 730px;
+    height: 90px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    letter-spacing: 0.135px;
+    color: var(--grey);
+}
+
+.hero > .btns {
+    margin-top: 45px;
+}
+
+ .btns > button:nth-child(1):hover {
+    background-color: #26bba5ab;
+ }
+ 
+ .btns > button:nth-child(2):hover {
+    background-color: #6173ffad;
+ }
+
+ .btns > button:nth-child(1) {
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    width: 227px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+    border-style: none;
+    margin-right: 16px;
+}
+
+ .btns > button:nth-child(2) {
+    background: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    width: 227px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+    border-style: none;
+}

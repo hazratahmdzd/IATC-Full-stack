@@ -1,0 +1,68 @@
+footer {
+    width: 100%;
+    background-color: #9eabb215;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer > img {
+    width: 55px;
+    height: 55px;
+    margin: 44px 135px 51px 165px;
+}
+
+footer >  #faq {
+    margin-right: 80px;
+}
+
+footer >  #faq > p {
+    width: 160px;
+    height: 30px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.135px;
+    color: var(--black);
+}
+
+footer > #pp {
+    margin-right: 80px;
+}
+
+footer > #pp > p {
+    width: 160px;
+    height: 30px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.135px;
+    color: var(--black);
+}
+
+.only > p {
+    margin-bottom: 69px;
+    width: 160px;
+    height: 30px;
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    letter-spacing: 0.135px;
+    color: var(--black);
+}
+
+.logos > img {
+    width: 105px;
+    height: 20px;
+    margin-left: 120px;
+}

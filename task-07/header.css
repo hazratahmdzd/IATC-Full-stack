@@ -1,0 +1,18 @@
+header {
+    position: relative;
+    height: 370px;
+}
+
+header > img {
+    position: absolute;
+}
+
+header > img:nth-child(1) {
+    opacity: 25%;
+    width: 1280px;
+}
+
+header > img:nth-child(2) {
+    top: 140px;
+    left: 585px;
+}
