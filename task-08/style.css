@@ -3,8 +3,165 @@
 @import url(./main.css);
 @import url(./footer.css);
 
+
 button {
     cursor: pointer;
 }
 
+.row > .picture > img:nth-child(2) {
+    display: none;
+}
+
+
+@media screen and (max-width: 996px) {
+    header .emptyd {
+        display: none;
+    }
+
+    header h1 {
+        width: 89px;
+        height: 35px;
+        margin-left: 16px;
+    }
+    
+    header button {
+        width: 140px;
+        height: 48px;
+        margin-left: 114px;
+    }
+    .row > .picture > img:nth-child(1) {
+        display: none;
+        
+    }
+
+    .row > .picture > img:nth-child(2) {
+        display: block;
+    }
+
+    
+    
+    .hero .content {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin-top: 45px;
+        margin-left: 16px;
+
+    }
+    
+    /* .row > .picture {
+        position: relative;
+    } */
+
+    /* .row > .picture > img:nth-child(2) {
+        position: absolute;
+        bottom: 0;
+    } */
+
+    .row > .picture > img:nth-child(2) {
+        margin-top: 525px;
+    }
+
+    .hero h2 {
+        padding: unset;
+        font-size: 40px;
+    }
+
+    .hero p {
+        padding: unset;
+        font-size: 16px;
+    }
+
+    .hero button {
+        margin-top: -10px;
+    }
+
+    .hero > .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .main {
+        height: 1880px;
+    }
+    
+    .main .ilk {
+        width: 343px;
+        height: 120px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 140px 16px 40px 16px;
+    }
+
+    .main .ilk > h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 24px 29px 32px 28px;
+    }
+
+    .main .diger {
+        width: 343px;
+        height: 259px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-bottom: 32px;
+    }
+
+    .main .diger > h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 24px;
+        margin-left: 28px;
+    }
+
+    .main .diger > p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+        margin-left: 28px;
+        margin-right: 29px;
+
+    }
+
+    .main .diger > a {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 24px;
+        margin-left: 28px;
+        position: unset;      
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards:nth-child(2) {
+        margin-top: 30px;
+    }
+
+
+    .ftr > .row > .col-6 {
+        display: none;
+    }
+    
+    .ftr > .row h2 {
+        margin-top: 43px;
+        margin-bottom: 42px;
+        margin-left: -10px;
+    }
+
+    .ftr > .row button {
+        margin-top: 36px;
+        margin-bottom: 36px;
+        margin-left: 96px;
+    }
+}
 

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 186px;
+    gap: 29px;
 }
 
 .hero img {
@@ -14,24 +15,21 @@
 .hero h2 {
     height: 143px;
     font-style: normal;
-font-weight: 800;
-font-size: 56px;
-line-height: 71px;
-
-/* 13183F */
-color: #13183F;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+    padding-right: 500px;
 }
 
 .hero p {
     height: 84px;
     font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-/* or 156% */
-
-/* 83869A */
-color: #83869A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    padding-right: 700px;
 }
 
 .hero button {

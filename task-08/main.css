@@ -4,12 +4,12 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
-.yuxari {
+.cards {
     gap: 30px;
 }
-.asagi {
+
+.cards:nth-child(2) {
     margin-top: 80px;
-    gap: 30px;
 }
 
 .imglogo {
