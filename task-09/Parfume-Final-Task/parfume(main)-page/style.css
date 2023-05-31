@@ -1,0 +1,44 @@
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./bestseller.css);
+@import url(./middle.css);
+@import url(./topproduct.css);
+@import url(./filpic.css);
+@import url(./fildivs.css);
+@import url(./testimonials.css);
+@import url(./atb.css);
+@import url(./footer.css);
+
+body {
+    position: relative;
+}
+
+body > .home-image {
+    position: absolute;
+    z-index: -1;
+}
+
+.parfumes {
+    background-color: white;
+    /* display: none; */
+}
+
+
+
+.parfumes li {
+    list-style: none;
+    margin-top: 7px;
+}
+
+.parfumes img {
+    width: 100%;
+    /* height: 270px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.parfumes .row {
+    gap: 50px;
+}
+

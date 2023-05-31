@@ -1,0 +1,18 @@
+.ppmain > .container > h2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.ppmain > .container > p {
+    margin-top: 10px;
+}
+
+.ppmain > .container > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.ppmain > .container > h3 > span {
+    font-weight: 200;
+}

@@ -1,0 +1,64 @@
+.abouttop {
+    background-color: #f1f1f1;
+    padding-top: 150px;
+}
+
+.abouttop > .grey {
+    padding: 72px;
+}
+
+main h2 {
+    color: #015e6b;
+    font-size: 41px;
+}
+.mainabout .bottom {
+    margin-left: -23px;
+}
+
+.mainabout .top {
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.last > h2 {
+    margin: 80px;
+}
+
+.last .topcon {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.nextabout > p {
+    margin-top: 10px;
+    max-width: 700px;
+    transform: translateX(30%);
+}
+
+.nextabout > h2 {
+    margin-top: 80px;
+}
+
+.dos {
+    border: 1px solid black;
+    padding: 25px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.dos > img {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.dos > h3 > span {
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.aboutfooter {
+    background-color: #f1f1f1;
+    padding-top: 60px;
+}

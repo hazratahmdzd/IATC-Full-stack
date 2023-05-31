@@ -1,0 +1,72 @@
+.testimonials {
+    margin-top: 200px;
+}
+
+.testimonials > h2 {
+    color: #015e6b;
+}
+
+.testimonials > p {
+    margin: 0;
+}
+
+.testimonials > .bottomdivs {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.testimonials > .bottomdivs > .row {
+    gap: 40px;
+}
+
+
+.testimonials > .bottomdivs > .row > .col {
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.testimonials > .bottomdivs > .row > .red {
+    background-color: #d9135a;
+    color: white;
+}
+
+.testimonials > .bottomdivs > .row > .col h4 {
+    margin-top: 10px;
+}
+
+.testimonials > .bottomdivs > .row > .col h6 {
+    margin-bottom: 0px;
+}
+
+.testimonials > .bottomdivs > .row > .col span {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.banner-image {
+    background-image: url(//cdn.shopify.com/s/files/1/0618/3518/2257/files/custom-banner.png?v=1666083396);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: -160px;
+    z-index: 1;
+}
+
+.banner-image > div {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 50%;
+}
+
+.banner-image > div > h2 > p {
+    margin: 0;
+    font-weight: 300;
+}
+
+.banner-image > div > p {
+    margin-top: 15px;
+}

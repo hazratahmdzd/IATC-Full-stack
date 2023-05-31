@@ -1,0 +1,97 @@
+.atb {
+    background-color: #015e6b;
+    height: 855px;
+    position: relative;
+}
+
+.atb > .word {
+    position: absolute;
+    top: 230px;
+    transform: translateX(45%);
+    color: white;
+}
+
+.atb > div > h2 {
+    font-size: 41px;
+}
+
+.atb > div > h2 > span {
+    font-weight: 300;
+
+}
+
+.atb > div > p {
+    margin: 0;
+}
+
+.atbdivs {
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+
+/* .atbdiv > .img {
+    height: 148.5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.atbdivs .atbdiv > .img  {
+    position: relative;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    overflow: hidden;
+}
+
+.atbdiv > .img > span {
+    position: absolute;
+    background-color: #015e6b;
+    font-size: 14px;
+    top: 15px;
+    left: 15px;
+    max-width: 72px;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 15px;
+}
+
+.atbdiv > .img > img {
+    width: 100%;
+    padding: 0;
+}
+
+.atbdiv > .content {
+    background-color: white;
+    padding: 15px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.atbdiv > .content > button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #d9135a;
+    border: 1px solid #d9135a;
+    color: white;
+    transition: all ease-in-out .5s;
+    margin-top: 15px;
+}
+
+.atbdiv > .content > button:hover {
+    background-color: white;
+    color: #d9135a;
+    transition: all ease-in-out .5s;
+}
+
+.atbdiv > .content > span {
+    font-size: 14px;
+}
+
+.atbdiv > .content > h3 {
+    font-size: 22px;
+}
+
+.atbdiv > .content > p {
+    font-size: 12px;
+    margin-bottom: 0;
+}

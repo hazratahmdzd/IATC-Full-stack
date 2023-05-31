@@ -1,0 +1,64 @@
+.middle {
+    background: linear-gradient(180deg,#015e6b 96%,#ffffff00 0%);
+    color: white;
+    padding-top: 80px;
+}
+
+.middle img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.middle .word > h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 90px;
+}
+
+.middle .word > p {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.middle .word > button {
+    background-color: #d9135a;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    transition: all ease-in-out .3s;
+}
+
+.middle .word > button:hover {
+    background-color: white;
+    color: #d9135a;
+    transition: all ease-in-out .3s;
+}
+
+.middle .bottom {
+    margin-top: 10px;
+}
+
+.middle .bottom > span {
+    margin-right: 15px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.middle .bottom > button {
+    color: black;
+    border-radius: 40px;
+    min-width: 120px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 14px 30px 12px;
+    transition: all ease-in-out .5s;
+    border: none;
+    font-size: 14px;
+}
+
+.middle .bottom > button:hover {
+    color: #d9135a;  
+}

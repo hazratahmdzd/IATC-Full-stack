@@ -1,0 +1,57 @@
+.faqs .ddcol a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.faqs .topcol {
+    margin-top: 80px;
+}
+
+.faqcon > .row {
+    gap: 20px;
+}
+
+.faqcon > .row > .col {
+    margin-bottom: 40px;
+    max-height: 500px;
+}
+
+
+
+.ddcol > div {
+    width: 100%;
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+}
+
+.faqs .dropdown {
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+    width: 100%;
+    display: none;
+
+}
+
+.faqs .dropdown > p {
+    display: block;
+}
+
+.ddcol:hover .dropdown{
+    display: block;
+    width: 100%;
+}
+
+/* .faqs>.container .dropdown::after {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-image: url(arrow-acc.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    top: 50%;
+} */

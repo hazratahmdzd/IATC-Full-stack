@@ -1,0 +1,207 @@
+.bestseller > .product > .container {
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 180px;
+}
+
+.bestseller h2 {
+    color: #015e6b;
+    line-height: 1;
+}
+
+.bestseller span {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.toprow {
+    margin-bottom: 20px;
+}
+
+.bestseller img {
+    width: 70%;
+    height: 40%;
+}
+
+.bestseller .productcol > div {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.secondpc {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    opacity: 0;
+    transition: all ease-in-out .5s;
+}
+
+.firstpc {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    opacity: 1;
+    transition: all ease-in-out .5s;
+}
+
+.pcs:hover .secondpc {
+    opacity: 1;
+    transition: all ease-in-out .5s;
+}
+
+.pcs:hover .firstpc {
+    opacity: 0;
+    transition: all ease-in-out.5s;
+}
+
+.bestseller .col > div > svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    top: 15px;
+    z-index: 1;
+}
+
+.bestseller h3 {
+    font-size: 22px;
+    margin-top: 220px;
+    min-height: 53px;
+}
+
+.productbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.word {
+    font-size: 18px;
+    margin-top: 13px;
+    font-weight: 500;
+}
+
+.number {
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.milli > a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.milli > a:nth-child(1) {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.add-to-cart {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #d9135a;
+    background-color: #d9135a;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: all ease-in-out .5s;
+
+}
+
+
+.add-to-cart > a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: 600;
+    transition: all ease-in-out .5s;
+}
+
+.add-to-cart:hover {
+    background-color: white;
+    transition: all ease-in-out .5s;
+    
+}
+
+.add-to-cart:hover a {
+    color: #d9135a;
+    transition: all ease-in-out .5s;
+}
+
+.filaroma {
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.filaroma img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.filaroma .leftcol {
+    margin-top: -170px;
+}
+
+.filaroma .leftcol h3 > b {
+    font-size: 41px;
+    font-weight: 300;
+    color: #015e6b;
+}
+.filaroma .leftcol h3 > p {
+    font-size: 41px;
+    color: #015e6b;
+}
+
+.filaroma .leftcol > div > p {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.filaroma .leftcol button {
+    border: 1px solid #d9135a;
+    border-radius: 20px;
+    margin-right: 5px;
+    color: #d9135a;
+    font-weight: 700;
+    padding: 10px;
+    line-height: 1;
+    text-align: center;
+    font-size: 14px;
+    min-width: 100px;
+    background-color: white;
+    transition: all ease-in-out .3s;
+}
+
+.filaroma .leftcol button:hover {
+    color: white;
+    background-color: #d9135a;
+    transition: all ease-in-out .3s;
+}
