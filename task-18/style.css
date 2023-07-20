@@ -1,0 +1,196 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 60px;
+}
+
+.ibdiv { 
+    display: inline-block;
+}
+
+.line {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(183, 177, 177, 0.32);
+    margin-bottom: -4px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rightcol > span {
+    font-size: 16px;
+}
+.rightcol > .first {
+    margin-top: -2px;
+    margin-left: 6px;
+}
+.rightcol > .second {
+    margin-top: -6px;
+    margin-left: 12px;
+}
+
+.leftcol > svg {
+    margin-top: -20px;
+}
+
+.search {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-top: 50px;
+}
+.search > input {
+    width: 800px;
+    background-color: rgba(216, 216, 216, 0.443);
+    border: none;
+    border-radius: 15px;
+    height: 43px;
+    padding: 20px;
+}
+.search > input::placeholder {
+    color: black;
+}
+.search > svg {
+    position: absolute;
+    right: 80px;
+    top: 12px;
+}
+.keyboard {
+    display: flex;
+    gap: 400px;
+    margin-left: 210px;
+    margin-top: 70px;
+}
+
+.keyboard > button {
+    margin-left: 128px;
+    border: none;
+    background-color: transparent;
+    margin-top: -18px;
+}
+
+.kbdiv > p:nth-child(1) {
+    font-size: 50px;
+    font-weight: 600;
+}
+.kbdiv > p:nth-child(2) {
+    font-size: 18px;
+    margin-left: -140px;
+    margin-top: -18px;
+    color: rgb(169, 11, 208);
+}
+
+.main {
+    margin-top: 50px;
+}
+.noun {
+    display: inline-block;
+}
+.noun > span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -45px;
+}
+.inline {
+    display: inline-block;
+    height: 2px;
+    width: 730px;
+    background-color: rgba(183, 177, 177, 0.32);
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+
+.circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(169, 11, 208);
+    margin-bottom: -18px;
+}
+
+.biginline {
+    height: 2px;
+    width: 820px;
+    background-color: rgba(183, 177, 177, 0.32);
+    margin-right: 55px;
+    margin-bottom: 16px;
+}
+
+.head > p {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+
+.list {
+    margin-left: 150px;
+}
+
+.list > ul > li {
+    margin-top: 20px;
+} 
+
+.list > ul > li > p {
+    margin-left: 30px;
+}
+
+.list > ul {
+    list-style: none;
+}
+
+.synonyms > p {
+    margin-left: 72px;
+    margin-top: 30px;
+}
+
+.grey {
+    color: grey;
+    font-size: 18px;
+}
+
+.synonyms > p > span {
+    color: #a90bd0;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.added {
+    margin-top: -5px;
+    margin-left: 124px;
+    margin-bottom: 30px;
+}
+.added > p {
+    color: grey;
+}
+
+.source > p {
+    margin-left: 40px;
+    font-size: 14px;
+    color: grey;
+}
+.source > p > a {
+    margin-left: 20px;
+    color: black;
+}
+.source > p > svg {
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: white;
+}
+.dark-mode ::placeholder {
+    color: #ffffff;
+}
+
+.dark-mode a {
+    color: #ffffff;
+}
+
