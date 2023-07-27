@@ -25,9 +25,10 @@ button {
     }
     
     header button {
-        width: 140px;
-        height: 48px;
+        width: 30%;
+        height: 100%;
         margin-left: 114px;
+        font-size: 3vw;
     }
     .row > .picture > img:nth-child(1) {
         display: none;
@@ -36,6 +37,8 @@ button {
 
     .row > .picture > img:nth-child(2) {
         display: block;
+        width: 100%;
+        height: 50%;
     }
 
     
@@ -65,15 +68,22 @@ button {
     .hero h2 {
         padding: unset;
         font-size: 40px;
+        width: 100%;
+        height: 100%;
     }
 
     .hero p {
         padding: unset;
         font-size: 16px;
+        width: 100%;
+        height: 100%;
     }
 
     .hero button {
-        margin-top: -10px;
+        /* margin-top: -10px; */
+        width: 30%;
+        font-size: 3vw;
+        height: 100%;
     }
 
     .hero > .row {
