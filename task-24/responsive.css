@@ -1,0 +1,92 @@
+@media (max-width: 1000px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .feedback {
+        flex-direction: row;
+        width: 100%;
+    }
+    .suggestions {
+        width: 100%;
+    }
+    .feedcards {
+        width: 32%;
+    }
+}
+
+@media (max-width: 784px) {
+    body {
+        margin: 0;
+    }
+    .main-container {
+        width: 100%;
+    }
+    .feedback {
+        flex-direction: column;
+        
+    }
+    .feedcards {
+        display: none;
+    }
+    #feedback-board {
+        display: flex;
+        width: 100%;
+        border-radius: 0;
+        align-items: center;
+        height: 100px;
+        margin-bottom: -20px;
+    }
+    #feedback-board > svg {
+        margin-right: 20px;
+    }
+    #menu {
+        display: block;
+    }
+    .nav {
+        border-radius: 0;
+        height: 60px;
+    }
+    .nav > img {
+        display: none;
+    }
+    .nav > h3 {
+        display: none;
+    }
+    .cards {
+        width: 90%;
+        margin: auto;
+    }
+    .main > .middle {
+        grid-row: 1/2;
+        grid-column: 1/6;
+    }
+    .cards > .main > #leftbtn {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    #lastbtn {
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+    .cards > .main > p {
+        grid-row: 2/3;
+        grid-column: 5/6;
+    }
+    .mobile-design {
+        z-index: 2;
+        position: absolute;
+        height: 100vb;
+        right: 0;
+        top: 100px;
+        position: fixed;
+    }
+    .mobile-menu {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #mobile-cards {
+        display: flex;
+        width: 80%;
+    }
+}
