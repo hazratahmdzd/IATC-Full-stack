@@ -365,8 +365,6 @@ button:hover {
 }
 
 #lastbtn {
-    /* position: absolute; */
-    /* right: 10px; */
     background-color: white;
     width: 10%;
     border: none;
@@ -589,14 +587,14 @@ button:hover {
 .create-main input {
     background-color: #f2f4ff;
     border: none;
-    width: 100%;
+    width: 90%;
     border-radius: 8px;
 }
 
 .create-main select {
     background-color: #f2f4ff;
     border: none;
-    width: 100%;
+    width: 95%;
     padding: 18px 20px;
     border-radius: 8px;
 }
@@ -683,14 +681,14 @@ button:hover {
 .edit-main input {
     background-color: #f2f4ff;
     border: none;
-    width: 95%;
+    width: 90%;
     border-radius: 8px;
 }
 
 .edit-main select {
     background-color: #f2f4ff;
     border: none;
-    width: 100%;
+    width: 95%;
     padding: 18px 20px;
     border-radius: 8px;
     color: #647196;
@@ -731,13 +729,13 @@ button:hover {
 .btns > .left {
     width: 50%;
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
 }
 
 .btns > .right {
     width: 50%;
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
     gap: 20px;
 }
 
@@ -804,7 +802,7 @@ button:hover {
 .condition-work {
     display: flex;
     gap: 30px;
-}
+} 
 
 .conditions {
     display: flex;
@@ -1080,4 +1078,29 @@ button:hover {
     /* margin-bottom: -10px; */
     margin-left: 5px;
     font-weight: 600;
+}
+
+.mobile-work > .focused-elements {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.mobile-work > .focused-elements > button {
+    border: none;
+    background-color: transparent;
+    color: #647196;
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: -9px;
+}
+
+#nav-planned {
+    color: black;
+    border-bottom: 3px solid #F49F85;
+}
+
+.mobile-work > .conditions {
+    width: 80%;
+    margin: auto;
 }

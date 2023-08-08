@@ -44,7 +44,6 @@
     }
     .nav {
         border-radius: 0;
-        height: 60px;
     }
     .nav > img {
         display: none;
@@ -88,5 +87,50 @@
     #mobile-cards {
         display: flex;
         width: 80%;
+    }
+    .feedback-container {
+        width: 90%;
+    }
+    #comment-card {
+        width: 100%;
+    }
+    .create-fb-container {
+        width: 90%;
+    }
+    .create-main > .btns {
+        flex-direction: column-reverse;
+    }
+    .create-main > .btns > button {
+        width: 100%;
+    }
+    .edit-fb-container {
+        width: 90%;
+    }
+    .edit-fb-container .edit-main > .btns {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .edit-fb-container .edit-main > .btns > .right {
+        flex-direction: column-reverse;
+        width: 97%;
+    }
+    .edit-fb-container .edit-main > .btns > .left {
+        width: 97%;
+    }
+    .edit-fb-container .edit-main > .btns button {
+        width: 97%;
+    }
+    .roadmap-container {
+        width: 100%;
+    }
+    .roadmap-conrtainer > .nav {
+        width: 100%;
+        border-radius: 0;
+    }
+    .roadmap-conrtainer > .nav > .main {
+        width: 80%;
+    } 
+    .condition-work {
+        display: none;
     }
 }

@@ -14,12 +14,19 @@ let editCancelButton = document.getElementById('editfirstbtn');
 let editGoBackButton = document.getElementById('edit-go-back-btn');
 let editFeedBackButton = document.getElementById('editfbbtn');
 let roadmapButton = document.getElementById('roadmapbtn');
+let mobileRoadmapButton = document.getElementById('mobile-roadmapbtn');
 let roadmapContainer = document.getElementById('roadmap-container');
 let rmGoBackButton = document.getElementById('rm-go-back-btn');
 let mobileDesign = document.getElementById('mobile-design');
 let crossButton = document.getElementById('cross');
 let menuButton = document.getElementById('menu');
 let backgroundBlock = document.getElementById('block');
+let plannedPage = document.getElementById('planned-page');
+let inProgressPage = document.getElementById('in-progress-page');
+let livePage = document.getElementById('live-page');
+let plannedBtn = document.getElementById('nav-planned');
+let inProgressBtn = document.getElementById('nav-in-progress');
+let liveBtn = document.getElementById('nav-live');
 
 dropDownButton.addEventListener('click', () => {
     if(dropDownMenu.style.display === 'none'){
@@ -76,6 +83,10 @@ roadmapButton.addEventListener('click', () => {
     mainContainer.style.display = 'none';
     roadmapContainer.style.display = 'block';
 })
+mobileRoadmapButton.addEventListener('click', () => {
+    mainContainer.style.display = 'none';
+    roadmapContainer.style.display = 'block';
+})
 
 rmGoBackButton.addEventListener('click', () => {
     roadmapContainer.style.display = 'none';
@@ -96,4 +107,38 @@ crossButton.addEventListener('click', () => {
     mobileDesign.style.display = 'none';
     backgroundBlock.style.display = 'none';
     document.body.style.overflow = 'auto';
+})
+
+plannedBtn.addEventListener('click', () => {
+    plannedPage.style.display = 'flex';
+    inProgressPage.style.display = 'none';
+    livePage.style.display = 'none';
+    plannedBtn.style.borderBottom = '3px solid #F49F85'
+    inProgressBtn.style.borderBottom = 'none';
+    liveBtn.style.borderBottom = 'none';
+    plannedBtn.style.color = 'black';
+    inProgressBtn.style.color = '#647196';
+    liveBtn.style.color = '#647196';
+})
+inProgressBtn.addEventListener('click', () => {
+    plannedPage.style.display = 'none';
+    inProgressPage.style.display = 'flex';
+    livePage.style.display = 'none';
+    plannedBtn.style.borderBottom = 'none'
+    inProgressBtn.style.borderBottom = '3px solid #AD1FEA';
+    liveBtn.style.borderBottom = 'none';
+    plannedBtn.style.color = '#647196';
+    inProgressBtn.style.color = 'black';
+    liveBtn.style.color = '#647196';
+})
+liveBtn.addEventListener('click', () => {
+    plannedPage.style.display = 'none';
+    inProgressPage.style.display = 'none';
+    livePage.style.display = 'flex';
+    plannedBtn.style.borderBottom = 'none'
+    inProgressBtn.style.borderBottom = 'none';
+    liveBtn.style.borderBottom = '3px solid #62BCFA';
+    plannedBtn.style.color = '#647196';
+    inProgressBtn.style.color = '#647196';
+    liveBtn.style.color = 'black';
 })
