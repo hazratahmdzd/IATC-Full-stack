@@ -64,6 +64,7 @@ button:hover {
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
+    height: max-content;
 }
 
 .feedback {
@@ -1080,6 +1081,18 @@ button:hover {
     font-weight: 600;
 }
 
+#in-progress-page {
+    display: none;
+}
+
+#live-page {
+    display: none;
+}
+
+.mobile-work {
+    display: none;
+}
+
 .mobile-work > .focused-elements {
     display: flex;
     justify-content: space-around;
@@ -1099,6 +1112,7 @@ button:hover {
     color: black;
     border-bottom: 3px solid #F49F85;
 }
+
 
 .mobile-work > .conditions {
     width: 80%;

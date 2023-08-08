@@ -133,4 +133,11 @@
     .condition-work {
         display: none;
     }
+    .mobile-work {
+        display: block;
+    }
+    /* .mobile-work > .conditions {
+        height: 100%;
+        overflow-y: scroll;
+    } */
 }
