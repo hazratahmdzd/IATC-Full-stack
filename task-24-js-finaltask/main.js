@@ -142,3 +142,94 @@ liveBtn.addEventListener('click', () => {
     inProgressBtn.style.color = '#647196';
     liveBtn.style.color = 'black';
 })
+
+let commentValues = document.querySelectorAll('.count');
+commentValues.forEach(value => {
+    let randomValue = Math.floor(Math.random()*10);
+    value.textContent = randomValue;
+})
+let upvoteValues = document.querySelectorAll('.upvotes');
+upvoteValues.forEach(value => {
+    let randomValue = Math.floor(Math.random()*1000);
+    value.textContent = randomValue;
+})
+
+
+const mostCommentsBtn = document.querySelector('#mostComments');
+const leastCommentsBtn = document.querySelector('#leastComments');
+
+const cardsContainer = document.querySelector('.feedback-cards');
+const cards = Array.from(cardsContainer.querySelectorAll('.cards'));
+
+leastCommentsBtn.addEventListener('click', () => {
+    cards.sort((a, b) => {
+        const aCount = parseInt(a.querySelector('.count').textContent);
+        const bCount = parseInt(b.querySelector('.count').textContent);
+        return aCount - bCount;
+    });
+    
+    cards.forEach(card => {
+        cardsContainer.appendChild(card);
+    });
+
+    leastUpvotesBtn.style.color = 'black'
+    mostUpvotesBtn.style.color = 'black';
+    mostCommentsBtn.style.color = 'black';
+    leastCommentsBtn.style.color = '#AD1FEA';
+});
+
+mostCommentsBtn.addEventListener('click', () => {
+    cards.sort((a, b) => {
+        const aCount = parseInt(a.querySelector('.count').textContent);
+        const bCount = parseInt(b.querySelector('.count').textContent);
+        return bCount - aCount;
+    });
+    
+    cards.forEach(card => {
+        cardsContainer.appendChild(card);
+    });
+
+    leastUpvotesBtn.style.color = 'black';
+    mostUpvotesBtn.style.color = 'black';
+    mostCommentsBtn.style.color = '#AD1FEA';
+    leastCommentsBtn.style.color = 'black';
+})
+
+
+const mostUpvotesBtn = document.querySelector('#mostUpvotes');
+const leastUpvotesBtn = document.querySelector('#leastUpvotes');
+
+mostUpvotesBtn.addEventListener('click', () => {
+    cards.sort((a,b) => {
+        const aUpvotes = parseInt(a.querySelector('.upvotes').textContent);
+        const bUpvotes = parseInt(b.querySelector('.upvotes').textContent);
+        return bUpvotes - aUpvotes;
+    });
+
+    cards.forEach(card => {
+        cardsContainer.appendChild(card);
+    });
+
+    leastUpvotesBtn.style.color = 'black'
+    mostUpvotesBtn.style.color = '#AD1FEA';
+    mostCommentsBtn.style.color = 'black';
+    leastCommentsBtn.style.color = 'black';
+})
+
+leastUpvotesBtn.addEventListener('click', () => {
+    cards.sort((a,b) => {
+        const aUpvotes  = parseInt(a.querySelector('.upvotes').textContent);
+        const bUpvotes = parseInt(b.querySelector('.upvotes').textContent);
+        return aUpvotes - bUpvotes;
+    });
+
+    cards.forEach(card => {
+        cardsContainer.appendChild(card);
+    });
+
+    leastUpvotesBtn.style.color = '#AD1FEA'
+    mostUpvotesBtn.style.color = 'black';
+    mostCommentsBtn.style.color = 'black';
+    leastCommentsBtn.style.color = 'black';
+})
+
