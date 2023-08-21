@@ -98,7 +98,7 @@ menuButton.addEventListener('click', () => {
     crossButton.style.display = 'block';
     mobileDesign.style.display = 'block';
     backgroundBlock.style.display = 'block';
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
 })
 
 crossButton.addEventListener('click', () => {
@@ -106,7 +106,7 @@ crossButton.addEventListener('click', () => {
     menuButton.style.display = 'block';
     mobileDesign.style.display = 'none';
     backgroundBlock.style.display = 'none';
-    document.body.style.overflow = 'auto';
+    // document.body.style.overflow = 'auto';
 })
 
 plannedBtn.addEventListener('click', () => {
