@@ -1,0 +1,15 @@
+:root {
+    --button-text-color: #4661E6;
+    --main-color: #3A4374;
+    --planned-color: #F49F85;
+    --in-progress-color: #AD1FEA;
+    --live-color: #62BCFA;
+    --nav-color: rgb(55, 63, 104);
+    --background-color: #f2f4ff;
+    --white: #fff;
+    --grey: #808080;
+    --label-color: rgb(117, 114, 114);
+    --text-color: rgb(203, 203, 203);
+    --black: #000;
+    --linear-gradient: linear-gradient(to right, #62BCFA, #4661E6, #AD1FEA, #F49F85);
+}

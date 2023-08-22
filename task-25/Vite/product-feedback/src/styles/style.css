@@ -1,0 +1,360 @@
+body {
+    background-color: var(--background-color);
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.main-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.feedback-container {
+    width: 60%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.create-fb-container {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    display: none;
+}
+.edit-fb-container {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    display: none;
+}
+
+.roadmap-container {
+    width: 80%;
+    margin: auto;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    height: max-content;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+}
+
+.suggestions {
+    width: 75%;
+}
+
+.feedcards {
+    background-color: var(--white);
+    border-radius: 10px;
+    height: 130px;
+}
+
+#feedback-board {
+    background: var(--linear-gradient);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#menu {
+    display: none;
+}
+
+.mobile-design {
+    width: 70%;
+    background-color: var(--background-color);
+    display: none;
+}
+
+#cross {
+    display: none;
+}
+
+#feedback-board>.title {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: end;
+}
+
+#feedback-board>.title>h3 {
+    color: var(--white);
+    margin-left: 15px;
+    margin-bottom: -10px;
+}
+
+#feedback-board>.title>p {
+    font-size: 15px;
+    color: var(--background-color);
+    margin-left: 15px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.choices>.row {
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.choices>.row>button {
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 13px;
+    color: var(--button-text-color);
+}
+
+#checked {
+    background-color: var(--button-text-color);
+    color: var(--white);
+}
+
+.roadmap>.main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.roadmap>.main>.left {
+    width: 50%;
+}
+
+.roadmap>.main>.left>h4 {
+    margin-top: 8px;
+}
+
+.roadmap h4 {
+    color: var(--main-color);
+}
+
+.inlinediv {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+#firstdiv {
+    background-color: var(--planned-color);
+}
+
+#seconddiv {
+    background-color: var(--in-progress-color);
+}
+
+#thirddiv {
+    background-color: var(--live-color);
+}
+
+.roadmap>.main>.left>.condition {
+    margin-top: 10px;
+}
+
+.roadmap>.main>.left>.condition>label {
+    font-size: 14px;
+    color: var(--label-color);
+}
+
+.roadmap .right {
+    padding: 10px 0;
+    position: relative;
+}
+
+.roadmap .right>a {
+    font-size: 13px;
+}
+
+.roadmap .right>p {
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 11px;
+    position: absolute;
+    right: 0px;
+}
+
+.flex>label {
+    color: var(--main-color);
+}
+
+/* Rightside start */
+
+.nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: var(--nav-color);
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+#lamp {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+#arrow {
+    width: 10px;
+}
+
+#plus {
+    width: 8px;
+    margin-right: 3px;
+}
+
+#summary {
+    display: flex;
+    margin-left: 35px;
+}
+
+.nav>h3 {
+    color: var(--white);
+}
+
+#summary>p {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+#summary>button {
+    border: none;
+    background-color: var(--nav-color);
+    color: var(--background-color);
+}
+
+#summary>button>img {
+    transform: rotate(270deg);
+}
+
+#add-feedback {
+    position: absolute;
+    right: 18px;
+    border-radius: 10px;
+    background-color: var(--in-progress-color);
+    border: none;
+    padding: 12px 25px;
+    color: var(--white);
+}
+
+/* cards start */
+
+.cards {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.cards>.main {
+    display: grid;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cards>.main>button {
+    width: 40px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cards > .main > #leftbtn {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.cards > .main > p {
+    grid-row: 2/3;
+    grid-column: 6/7;
+    margin-left: -35px;
+    margin-top: -2px;
+    font-weight: 600;
+}
+
+.main > .middle {
+    grid-row: 1/4;
+    grid-column: 2/5;
+}
+
+.cards>.main>button>svg {
+    margin-bottom: -10px;
+}
+
+.middle>button {
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 13px;
+    color: var(--button-text-color);
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.middle>p {
+    margin-top: -5px;
+    color: var(--grey);
+    font-size: 15px;
+}
+
+#lastbtn {
+    background-color: var(--white);
+    width: 10%;
+    border: none;
+    grid-row: 2/3;
+    grid-column: 5/6;
+}
+
+
+#lastbtn>span {
+    margin-top: 20px;
+}

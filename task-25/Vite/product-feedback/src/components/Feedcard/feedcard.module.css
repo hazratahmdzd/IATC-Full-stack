@@ -1,0 +1,78 @@
+.cards {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.main {
+    display: grid;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#button {
+    width: 40px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.leftbtn {
+    grid-row: 1/3;
+    grid-column: 1/2;
+
+    width: 40px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.middle {
+    grid-row: 1/4;
+    grid-column: 2/5;
+}
+
+.main>button>svg {
+    margin-bottom: -10px;
+}
+
+/* .middle>button {
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 13px;
+    color: var(--button-text-color);
+    margin-top: -5px;
+    margin-bottom: 10px;
+} */
+
+.text {
+    margin-top: -5px;
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.lastbtn {
+    background-color: var(--white);
+    width: 10%;
+    border: none;
+}
+
+.btndiv {
+    display: flex;
+    align-items: center;
+    grid-row: 2/3;
+    grid-column: 5/7;
+    gap: 30px;
+    font-weight: 600;
+}
+
+
+.lastbtn>span {
+    margin-top: 20px;
+}
