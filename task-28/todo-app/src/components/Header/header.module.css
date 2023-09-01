@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=REM:wght@300;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;600;800&display=swap');
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 38px;
+    letter-spacing: 15px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}

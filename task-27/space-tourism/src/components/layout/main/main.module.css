@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../assets/home/background-home-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    gap: 200px;
+}
+
+* {
+    margin: 0;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    grid-row: 1/4;
+}
+
+.whitebox {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3/4;
+}
+
+.maintext {
+    font-size: 130px;
+}
+
+.smalltxt {
+    width: 400px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    padding-top: 38px;
+    padding-bottom: 28px;
+}
+
+#checked {
+    border-bottom: 2px solid #fff;
+}

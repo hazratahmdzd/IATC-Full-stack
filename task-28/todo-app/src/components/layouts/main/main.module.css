@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=REM:wght@300;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;600;800&display=swap');
+
+.container {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.main {
+    width: 38%;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img {
+    width: 20px;
+}
+
+.checkbox {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.completedcheckbox {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background: linear-gradient( 45deg, #55DDFF, #C058F3 );
+    background-clip: content-box;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chckbxmain {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.checkbox:hover {
+    border: 1px solid transparent;
+    background-clip: content-box;
+    background: linear-gradient( 45deg, #55DDFF, #C058F3 );
+}
+
+
+
+.todomain {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.listmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.completedlistmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #D1D2DA;
+    text-decoration: line-through;
+}
+
+.completedlistmain:hover .cancel {
+    display: block;
+}
+
+.listmain:hover .cancel {
+    display: block;
+}
+
+.todolist {
+    width: calc(100% -  20px);
+    border-radius: 5px;
+    list-style: none;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    outline: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: 'Josefin Sans', sans-serif;
+    color: #393A4B;
+}
+
+.input::placeholder {
+    color: #767992;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cancel {
+    width: 18px;
+    display: none;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom > p {
+    color: grey;
+    font-weight: 300;
+}
+
+.bottom > button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+.bottom > button:hover {
+    color: #000;
+    transition: all 0.5s;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns > button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.btns > button:hover {
+    color: black;
+    transition: all 0.5s;
+}
+
+.horizontal {
+    height: 1px;
+    width: 100%;
+    background-color: #E3E4F1;
+}
+
+#mobile {
+    display: none;
+}
+
+@media (max-width: 400px) { 
+    .container {
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 100vh;
+    }
+    .main {
+        width: 80%;
+        margin: auto;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .cancel {
+        display: block;
+        width: 14px;
+    }
+}
