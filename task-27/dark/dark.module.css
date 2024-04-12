@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=REM:wght@300;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;600;800&display=swap');
 
 .body {
-    background-color: #000;
+    background-color: var(--background-color);
     height: 100vh;
     padding-bottom: 100px;
 }

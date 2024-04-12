@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "../../task-27/dark"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

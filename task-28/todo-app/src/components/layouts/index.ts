@@ -1,2 +1,2 @@
 export { MainLayout } from "./main";
-export { DarkLayout } from "./dark";
+export { DarkLayout } from "../../../../../task-27/dark";

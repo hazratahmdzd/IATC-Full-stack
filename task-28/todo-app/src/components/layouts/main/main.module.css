@@ -1,6 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=REM:wght@300;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;600;800&display=swap');
 
+:root {
+    --main-white-color: #fff;
+    --bg-image: url(../../../assets/mainbg.png);
+    --checkbox-border: 1px solid rgba(0, 0, 0, 0.285);
+    --dark-main-color: #fff;
+    --completed-list-color: #D1D2DA;
+    --dark-white-color: #000;
+    --input-color: #393A4B;
+    --main-black-color: #000;
+    --horizontal-color: #E3E4F1;
+}
+
+[data-theme="dark"] {
+    --main-white-color: #000;
+    --bg-image: url(../../../assets/darkbg.png);
+    --checkbox-border: 1px solid #C8CBE7;
+    --dark-main-color: #25273D;
+    --completed-list-color: #4D5067;
+    --dark-white-color: #C8CBE7;
+    --input-color: #C8CBE7;
+    --main-black-color: #fff;
+    --horizontal-color: #393A4B;
+}
+
+.mainContainer {
+    background-color: var(--main-white-color);
+    height: 100vh;
+    padding-bottom: 100px;
+    transition: all 0.5s;
+}
+
 .container {
+    background-image: var(--bg-image);
+    transition: all 0.5s;
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -16,13 +49,15 @@
 
 .img {
     width: 20px;
+    cursor: pointer;
 }
 
 .checkbox {
     width: 17px;
     height: 17px;
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.285);
+    border: var(--checkbox-border);
+    transition: all 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +80,8 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--dark-main-color);
+    transition: all 0.5s;
 }
 
 .checkbox:hover {
@@ -79,7 +115,8 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #D1D2DA;
+    color: var(--completed-list-color);
+    transition: all 0.5s;
     text-decoration: line-through;
 }
 
@@ -95,7 +132,9 @@
     width: calc(100% -  20px);
     border-radius: 5px;
     list-style: none;
-    background-color: #fff;
+    background-color: var(--dark-main-color);
+    color: var(--dark-white-color);
+    transition: all 0.5s;
     padding: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -108,7 +147,9 @@
     outline: none;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-family: 'Josefin Sans', sans-serif;
-    color: #393A4B;
+    background-color: var(--dark-main-color);
+    color: var(--input-color);
+    transition: all 0.5s;
 }
 
 .input::placeholder {
@@ -139,7 +180,7 @@
     padding: 10px;
     outline: none;
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--dark-main-color);
     font-family: 'Josefin Sans', sans-serif;
     color: grey;
     font-weight: 300;
@@ -147,7 +188,7 @@
 }
 
 .bottom > button:hover {
-    color: #000;
+    color: var(--main-black-color);
     transition: all 0.5s;
 }
 
@@ -163,26 +204,42 @@
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: transparent;
     font-family: 'Josefin Sans', sans-serif;
-    color: grey;
     font-weight: 600;
     transition: all 0.5s;
 }
 
 .btns > button:hover {
-    color: black;
+    color: var(--main-black-color);
     transition: all 0.5s;
+}
+
+.btns > button:focus {
+    color: rgb(58, 124, 253);
 }
 
 .horizontal {
     height: 1px;
     width: 100%;
-    background-color: #E3E4F1;
+    background-color: var(--horizontal-color);
+    transition: all 0.5s;
 }
 
 #mobile {
     display: none;
+}
+
+.dNone {
+    display: none;
+}
+
+.activState {
+    color: rgb(58, 124, 253);
+}
+
+.grey {
+    color: grey;
 }
 
 @media (max-width: 468px) { 
@@ -203,7 +260,8 @@
         justify-content: center;
         gap: 10px;
         width: 100%;
-        background-color: #fff;
+        background-color: var(--dark-main-color);
+        transition: all 0.5s;
         border-radius: 5px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
